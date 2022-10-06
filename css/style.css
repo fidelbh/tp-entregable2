@@ -10,20 +10,19 @@
 
 /* ----- HEADER -----*/
 
-.menu-hanburguesa{
+.menu-hanburguesa {
   max-width: 40%;
   max-height: 40%;
   margin: 20px 20px 20px 20px;
-
 }
 
-.logo{
+.logo {
   max-width: 55%;
   max-height: 55%;
   margin: 20px 20px 20px 20px;
 }
 
-.input-busqueda{
+.input-busqueda {
   width: 350px;
   height: 30px;
   border-radius: 5px;
@@ -36,123 +35,120 @@ nav {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-around;
   color: white;
   font-family: "Open Sans";
   font-size: 25px;
-  
+}
 
+header nav li a {
+  list-style: none;
+  color: white;
 }
 
 nav {
-  margin: 0px 0px 30px 10px
+  margin: 0px 0px 30px 10px;
 }
 header {
   height: 102px;
-  
-  
 }
 .lista-nav {
   display: flex;
   flex-direction: row;
   font-size: 18px;
 }
-.lista-nav li{
+.lista-nav li {
   justify-content: center;
-  padding: 51px 10px 30px 10px ;
-  
+  padding: 51px 10px 30px 10px;
 }
 /* ----- HEADER -----*/
 
-
 /* ----- IMAG HOGWARTS -----*/
-.img-hogwarts{
+.img-hogwarts {
   max-width: 100%;
   max-height: 100%;
 }
 
-.btn-preventa{
+.btn-preventa {
   background-color: #460377;
   padding: 8px 32px;
   font-size: 18px;
-  color:white;
+  color: white;
   border-radius: 4px;
   position: relative;
 }
 
 /* ----- CARRUSEL RECOMENDADOS -----*/
-.carrusel-recomendados{
+.carrusel-recomendados {
   display: flex;
   flex-direction: row;
-  
 }
-.box{
+.box {
   width: 281px;
   height: 340px;
   background-color: red;
   overflow: hidden;
 }
 
-.card1{
-    width: 281px;
-    height: 445px;
-    color: white;
-    
-    border-radius: 10px;
-    overflow: hidden;
-    background-color: #270E78;
-  }
-  .card1 img{
-    width: 281px;
-    height: 340px;
-  }
+.card1 {
+  width: 281px;
+  height: 445px;
+  color: white;
 
-  .title-card{
-    margin: 10px 5px 20px 10px;
-  }
-  
-  p,span{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-   
-  }
-  span{
-    font-weight: bold;
-  }
-  .btn-agregarCarrito{
-    padding: 8px 10px;
-    margin-right: 10px;
-    font-size: 15px;
-    color:white;
-    border-radius: 4px;
-    background-color: #EE2418;
-  }
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #270e78;
+}
+.card1 img {
+  width: 281px;
+  height: 340px;
+}
+
+.title-card {
+  margin: 10px 5px 20px 10px;
+}
+
+p,
+span {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+span {
+  font-weight: bold;
+}
+.btn-agregarCarrito {
+  padding: 8px 10px;
+  margin-right: 10px;
+  font-size: 15px;
+  color: white;
+  border-radius: 4px;
+  background-color: #ee2418;
+}
 /* ----- 4 EN LINEA -----*/
-  .content-4enLinea{
-    display: flex;
-    flex-direction: row;
-    height: 400px;
-    background-color: #EE2418;
-  }
+.content-4enLinea {
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  background-color: #ee2418;
+}
 
-  .content-img{
-
+.content-img {
   background-color: green;
-  }
-  .box2{
-    overflow: hidden;
-    height: 200px;
-    border-radius: 8px;
-  }
-  .box2 img{
-    height: 200px;
-  }
+}
+.box2 {
+  overflow: hidden;
+  height: 200px;
+  border-radius: 8px;
+}
+.box2 img {
+  height: 200px;
+}
 
-  .content-texto{
-    background-color: blue;
-  }
-
+.content-texto {
+  background-color: blue;
+}
 
 /* ----- FOOTER -----*/
 footer {
