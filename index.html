@@ -11,22 +11,18 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Document</title>
   </head>
-
   <body>
     <header>
       <img class="menu-hanburguesa" src="/images/menu_hamburguesa.png" alt="" />
       <img class="logo" src="/images/logo.png" alt="" />
       <nav>
         <ul class="lista-nav">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="juegoLanzamiento.html">Novedades</a></li>
-          <li><a href="4enlinea.html">Categorías</a></li>
+          <li>Home</li>
+          <li>Novedades</li>
+          <li>Categorías</li>
         </ul>
       </nav>
       <input class="input-busqueda" type="text" />
-      <img src="/images/shopping-cart.svg" alt="">
-      <p>Usuario</p>
-      <img src="/images/user.svg" alt="">
     </header>
 
 
@@ -35,51 +31,89 @@
     <button class="btn-preventa"> Preventa </button>
     </div>
   <!---- CARDS DEL CARRUSEL RECOMENDADOS-->
+<div class="content-carrusel-recomendado">
+
+<div class="content-titulo-controladores">
   <h3>Recomendados para vos</h3>
-    <div class="carrusel-recomendados">
+  <div class="controladores">
+    
+  </div>
+</div>
+
+<div class="content-principal">
+  
+  
+  <!---- de donde a donde va el carrusel-->
+  <div class="content-carrusel">
+    <button  type="button" id="flecha-izquierda" class="flecha-izquierda">
+      <img src="/images/fecha izquierda.png" alt="">
+    </button>
+    <div class="carrusel">
       <div class="card1">
         <div class="box">
           <img src="/images/spider-man.jpg" alt="" />
         </div>
         <h4 class="title-card">Spider-Man Remasterizado</h4>
         <P>Precio <span>$3.500</span>
-        <button class="btn-agregarCarrito"> Agregar al carrito </button></P>
-      </div>
-
-      <div class="card1">
-        <div class="box">
-          <img src="/images/spider-man.jpg" alt="" />
+          <button class="btn-agregarCarrito"> Agregar al carrito </button></P>
         </div>
-        <h4 class="title-card">Spider-Man Remasterizado</h4>
-        <P>Precio <span>$3.500</span>
-        <button class="btn-agregarCarrito"> Agregar al carrito </button></P>
       </div>
-
-      <div class="card1">
-        <div class="box">
-          <img src="/images/spider-man.jpg" alt="" />
+      <div class="carrusel">
+        <div class="card1">
+          <div class="box">
+            <img src="/images/spider-man.jpg" alt="" />
+          </div>
+          <h4 class="title-card">Spider-Man Remasterizado</h4>
+          <P>Precio <span>$3.500</span>
+          <button class="btn-agregarCarrito"> Agregar al carrito </button></P>
         </div>
-        <h4 class="title-card">Spider-Man Remasterizado</h4>
-        <P>Precio <span>$3.500</span>
-        <button class="btn-agregarCarrito"> Agregar al carrito </button></P>
       </div>
-
-      <div class="card1">
-        <div class="box">
-          <img src="/images/spider-man.jpg" alt="" />
+      <div class="carrusel">
+        <div class="card1">
+          <div class="box">
+            <img src="/images/spider-man.jpg" alt="" />
+          </div>
+          <h4 class="title-card">Spider-Man Remasterizado</h4>
+          <P>Precio <span>$3.500</span>
+            <button class="btn-agregarCarrito"> Agregar al carrito </button></P>
+          </div>
         </div>
-        <h4 class="title-card">Spider-Man Remasterizado</h4>
-        <P>Precio <span>$3.500</span>
-        <button class="btn-agregarCarrito"> Agregar al carrito </button></P>
+        <div class="carrusel">
+          <div class="card1">
+          <div class="box">
+            <img src="/images/spider-man.jpg" alt="" />
+          </div>
+          <h4 class="title-card">Spider-Man Remasterizado</h4>
+          <P>Precio <span>$3.500</span>
+            <button class="btn-agregarCarrito"> Agregar al carrito </button></P>
+          </div>
+      </div>
+      <div class="carrusel">
+        <div class="card1">
+          <div class="box">
+            <img src="/images/spider-man.jpg" alt="" />
+          </div>
+          <h4 class="title-card">Spider-Man Remasterizado</h4>
+          <P>Precio <span>$3.500</span>
+            <button class="btn-agregarCarrito"> Agregar al carrito </button></P>
+          </div>
+        </div>
       </div>
 
-
+      <button type="button" id="flecha-derecha" class="flecha-derecha">
+        <img src="/images/fechaDerecha.png" alt="">
+      </button>
+     
+      </button>
     </div>
-   
-      <!---- Proba ahora, 4 en linea-->
-      <div class="content-4enLinea">
-        <div class="content-img">
-          <div class="box2">
+    
+    
+    
+    
+    <!---- Proba ahora, 4 en linea-->
+    <div class="content-4enLinea">
+      <div class="content-img">
+        <div class="box2">
             <img src="/images/the-amazing-spider-man.webp" alt="" />
           </div>
         </div>
@@ -144,5 +178,7 @@
       </div>
       <div class="container-footer2">© 2022 - 2022, PlayEscape.com</div>
     </footer>
+
+    <script src="/js/controlador.js"></script>
   </body>
 </html>
