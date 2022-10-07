@@ -67,12 +67,60 @@ a {
   color: white;
 }
 
-/* ----- HEADER -----*/
-
-section {
-  background-color: rgba(167, 168, 232, 1);
+.breadcrumb :first-child {
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
+/* ----- HEADER -----*/
+section {
+  width: 90%;
+  color: white;
+  margin-left: 5%;
+  margin-top: 60px;
+}
+
+section div {
+  margin-top: 30px;
+}
+
+section p {
+  margin-top: 10px;
+}
+
+article {
+  background-color: rgba(167, 168, 232, 1);
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 70px;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+article div {
+  width: 70%;
+  border: #f2f2f2 solid 1px;
+}
+
+article div > p {
+  display: block;
+  align-self: flex-start;
+}
+
+/*----- CONTENEDOR 4 EN LINEA -----*/
+
+/* ----- IMAG 4ENLINEA -----*/
+.figure-4enlinea-portada img {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 40px;
+}
+.contenedor-4enlinea div:first-child img {
+  width: 800px;
+  height: 600px;
+}
 /* ----- IMAG HOGWARTS -----*/
 .img-hogwarts {
   max-width: 100%;
