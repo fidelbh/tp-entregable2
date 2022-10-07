@@ -6,5 +6,9 @@ let flechaIzquierda= document.querySelector('#flecha-izquierda');
 let flechaDerecha= document.querySelector('#flecha-derecha');
 
 flechaDerecha.addEventListener('click',()=>{
-    fila.scrollLeft +=fila.scrollWidth;
+    fila.scrollLeft +=fila.offsetWidth;
+})
+
+flechaIzquierda.addEventListener('click',()=>{
+    fila.scrollLeft -=fila.offsetWidth;
 })
