@@ -91,24 +91,85 @@ section p {
 
 article {
   background-color: rgba(167, 168, 232, 1);
-  width: 90%;
   margin-left: 5%;
   margin-bottom: 70px;
   margin-top: 70px;
+  margin-right: 5%;
+}
+
+.input-comment input {
+  padding-bottom: 50px;
+  font-size: large;
+  width: 90%;
+  margin-left: 5%;
+  border-radius: 8px;
+  box-shadow: 5px 4px 6px rgba(0, 0, 0, 0.25);
+}
+
+article button {
+  background: #5e5df0;
+  border-radius: 999px;
+  box-shadow: #5e5df0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+
+article form div:nth-child(2) {
   display: flex;
-  flex-direction: column;
+  justify-content: flex-end;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-right: 5%;
 }
 
-article div {
-  width: 70%;
-  border: #f2f2f2 solid 1px;
+.foro-button {
+  display: flex;
+  padding-bottom: 10px;
+  padding-left: 5%;
 }
 
-article div > p {
-  display: block;
-  align-self: flex-start;
+.foro-button button {
+  background-color: lightblue;
+  margin-left: 10px;
 }
 
+.comment-hecho {
+  display: flex;
+}
+.comment-hecho p {
+  font-size: larger;
+}
+article div p {
+  justify-content: flex-start;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 5px 4px 6px rgba(0, 0, 0, 0.25);
+  padding: 10px;
+}
+
+.box-comment {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding-top: 20px;
+}
+
+.conteiner-comment {
+  padding-bottom: 50px;
+}
 /*----- CONTENEDOR 4 EN LINEA -----*/
 
 /* ----- IMAG 4ENLINEA -----*/
