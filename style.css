@@ -1,0 +1,410 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  font-family: "Open Sans";
+}
+
+/* ----- HEADER -----*/
+body {
+  background-color: #13063b;
+}
+.menu-hanburguesa {
+  max-width: 40%;
+  max-height: 40%;
+  margin: 20px 20px 20px 20px;
+}
+
+.logo {
+  max-width: 55%;
+  max-height: 55%;
+  margin: 20px 20px 20px 20px;
+}
+
+.input-busqueda {
+  width: 350px;
+  height: 30px;
+  border-radius: 5px;
+  margin-left: 40px;
+}
+
+header,
+nav {
+  background-color: rgb(39, 14, 120);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  font-family: "Open Sans";
+  font-size: 25px;
+}
+
+nav {
+  margin: 0px 0px 30px 10px;
+}
+header {
+  height: 102px;
+}
+.lista-nav {
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+}
+.lista-nav li {
+  justify-content: center;
+  padding: 51px 10px 30px 10px;
+}
+a {
+  color: white;
+}
+
+.breadcrumb {
+  background-color: rgba(122, 124, 221, 1);
+  color: white;
+}
+
+/* ----- HEADER -----*/
+
+section {
+  background-color: rgba(167, 168, 232, 1);
+}
+
+/* ----- IMAG HOGWARTS -----*/
+.img-hogwarts {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.btn-preventa {
+  background-color: #460377;
+  padding: 8px 32px;
+  font-size: 18px;
+  color: white;
+  border-radius: 4px;
+  position: relative;
+}
+
+/* ----- CONTENEDOR TITULO Y CONTROL -----*/
+.content-titulo-controladores {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.content-titulo-controladores h3 {
+  color: white;
+  margin: 0px 10px 0px 30px;
+}
+
+.controladores button {
+  background-color: black;
+  height: 3px;
+  width: 30px;
+  cursor: pointer;
+  border: none;
+  margin-right: 2px;
+}
+.controladores button:hover,
+.controladores button.activo {
+  background-color: red;
+}
+
+/* ----- CONTENEDOR PRINCIPAL Y FLECHAS -----*/
+
+.content-carrusel-recomendado {
+  margin-bottom: 70px;
+}
+
+.content-principal {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.flecha-izquierda,
+.flecha-derecha {
+  position: absolute;
+  margin: 0px 30px 0px 47px;
+  border: none;
+  background: rgba(19, 6, 59, 0.3);
+  height: 30%;
+  top: calc(50% - 25%);
+  line-height: 40px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 500;
+  transition: 0.2s ease all;
+}
+
+.flecha-izquierda:hover,
+.flecha-derecha:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.flecha-izquierda {
+  left: 0;
+}
+
+.flecha-derecha {
+  right: 0;
+}
+
+/* ----- CARRUSEL RECOMENDADOS -----*/
+
+.content-carrusel-recomendado .content-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+}
+
+.carrusel-recomendados {
+  display: flex;
+}
+
+.content-principal {
+  width: 100%;
+  padding: 20px 0px 20px 0px;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+.content-carrusel {
+  display: flex;
+  padding: 20px 0;
+  margin: 0px 30px 0px 30px;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+.carrusel {
+  margin: 0px 20px 0px 20px;
+  transition: 0.3s ease all;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.box {
+  width: 281px;
+  height: 340px;
+  background-color: red;
+  overflow: hidden;
+}
+
+.card1 {
+  width: 281px;
+  height: 445px;
+  color: white;
+  border-radius: 10px;
+
+  overflow: hidden;
+  background-color: #270e78;
+  transition: 0.3s ease all;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card1.hover {
+  transform: scale(1.2);
+  transform-origin: center;
+}
+.card1 img {
+  width: 281px;
+  height: 340px;
+}
+
+.title-card {
+  margin: 10px 5px 20px 10px;
+}
+
+p,
+span {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+span {
+  font-weight: bold;
+}
+.btn-agregarCarrito,
+.btn-jugar {
+  padding: 8px 10px;
+  margin-right: 10px;
+  font-size: 15px;
+  color: white;
+  border-radius: 4px;
+}
+
+.btn-agregarCarrito {
+  background-color: #ee2418;
+}
+.btn-jugar {
+  background-color: #7a06ce;
+  margin-left: 70px;
+  width: 150px;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+/* ----- 4 EN LINEA -----*/
+.content-4enLinea {
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  background-color: #270e78;
+  margin: 50px 50px 50px 50px;
+}
+
+.content-img {
+  padding: 50px 30px 100px 50px;
+}
+.box2 {
+  overflow: hidden;
+  height: 300px;
+  border-radius: 8px;
+}
+.box2 img {
+  height: 100%;
+}
+
+.content-texto {
+  padding: 100px 30px 100px 30px;
+  color: white;
+}
+
+.texto-enLinea {
+  margin: 0px 0px 15px 0px;
+  font-size: 30px;
+}
+.btn-ver-mas {
+  background-color: #7a06ce;
+  margin: 20px 0px 0px 0px;
+  width: 150px;
+  height: 35px;
+  font-size: 20px;
+  border-radius: 4px;
+  font-family: "Open Sans";
+  color: white;
+}
+
+/* ----- JUEGO LANZAMIENTO -----*/
+
+ 
+.contenedor-imagenes{
+  width: 100%;
+  margin: 15px 30px 15px 40px;
+  scroll-behavior: smooth;
+  background-color: #ee2418;
+}
+
+.carousel{
+  display: flex;
+  flex-direction: row;
+  width: 910px;
+
+}
+.pelicula img{
+  width: 300px;
+  margin: 0px 10px 0px 10px;
+}
+.contenedor-carrusel{
+ 
+  height: 300px;
+  overflow: hidden;
+}
+
+.contenedor-principal{
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 20px 0px 20px 0px;
+  margin-bottom: 70px;
+}
+.historia-juego{
+  color: white;
+  
+}
+.historia-juego h2{
+  margin-left: 40px;
+}
+.parrafo-lanzamiento{
+  margin: 10px 20px 0px 40px;
+}
+
+.card-juego{
+display: flex;
+flex-direction: row;
+
+}
+.mascara{
+  width: 300px;
+  height: 400px;
+  background-color: aqua;
+  border-radius: 20px;
+  border:5px solid rgb(172, 129, 21) ;
+  overflow: hidden;
+  margin: 0px 15px 0px 15px;
+  
+}
+.mascara img{
+  margin: auto;
+width: 120%;
+
+} 
+ 
+.contenedor-informacion{
+  display: flex;
+  flex-direction: column;
+  margin: 10px 40px 15px 30px;
+  padding: 20px;
+  background-color: black;
+  color: white;
+
+}
+
+.columna-minimo,.columna-recomendado,.titulo-descripcion,.descri{
+  justify-content: flex-start;
+  width: 50%;
+}
+
+.titulo-descripcion,.descri{
+  font-size: 12px;
+}
+.titulo-descripcion{
+  margin-top: 15px;
+}
+.idiomas{
+  width: 100%;
+  color: white;
+  align-self: center;
+  margin-bottom: 20px;
+}
+ 
+  
+ 
+  
+
+
+
+/* ----- FOOTER -----*/
+footer {
+  background-color: rgba(17, 19, 99, 1);
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.container-footer2 {
+  align-self: center;
+  margin-bottom: 20px;
+}
