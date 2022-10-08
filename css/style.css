@@ -290,6 +290,105 @@ span {
   color: white;
 }
 
+/* ----- JUEGO LANZAMIENTO -----*/
+
+ 
+.contenedor-imagenes{
+  width: 100%;
+  margin: 15px 30px 15px 40px;
+  scroll-behavior: smooth;
+  background-color: #ee2418;
+}
+
+.carousel{
+  display: flex;
+  flex-direction: row;
+  width: 910px;
+
+}
+.pelicula img{
+  width: 300px;
+  margin: 0px 10px 0px 10px;
+}
+.contenedor-carrusel{
+ 
+  height: 300px;
+  overflow: hidden;
+}
+
+.contenedor-principal{
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 20px 0px 20px 0px;
+  margin-bottom: 70px;
+}
+.historia-juego{
+  color: white;
+  
+}
+.historia-juego h2{
+  margin-left: 40px;
+}
+.parrafo-lanzamiento{
+  margin: 10px 20px 0px 40px;
+}
+
+.card-juego{
+display: flex;
+flex-direction: row;
+
+}
+.mascara{
+  width: 300px;
+  height: 400px;
+  background-color: aqua;
+  border-radius: 20px;
+  border:5px solid rgb(172, 129, 21) ;
+  overflow: hidden;
+  margin: 0px 15px 0px 15px;
+  
+}
+.mascara img{
+  margin: auto;
+width: 120%;
+
+} 
+ 
+.contenedor-informacion{
+  display: flex;
+  flex-direction: column;
+  margin: 10px 40px 15px 30px;
+  padding: 20px;
+  background-color: black;
+  color: white;
+
+}
+
+.columna-minimo,.columna-recomendado,.titulo-descripcion,.descri{
+  justify-content: flex-start;
+  width: 50%;
+}
+
+.titulo-descripcion,.descri{
+  font-size: 12px;
+}
+.titulo-descripcion{
+  margin-top: 15px;
+}
+.idiomas{
+  width: 100%;
+  color: white;
+  align-self: center;
+  margin-bottom: 20px;
+}
+ 
+  
+ 
+  
+
+
+
 /* ----- FOOTER -----*/
 footer {
   background-color: rgba(17, 19, 99, 1);
