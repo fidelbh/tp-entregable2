@@ -172,26 +172,91 @@ article div p {
 }
 /*----- CONTENEDOR 4 EN LINEA -----*/
 .contenedor-4enlinea {
-  height: 500px;
+  width: 90%;
+  display: flex;
+  margin-left: 5%;
+  background-color: gray;
+  height: 100%;
+  position: relative;
+  flex-direction: column;
 }
 
 .contenedor-4enlinea-1 {
   display: flex;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 50px;
 }
 
+.contenedor-4enlinea-1 div:first-child ul li {
+  margin-top: 20px;
+  width: 40px;
+  height: 40px;
+}
+.contenedor-4enlinea-1 div:first-child {
+  align-self: center;
+}
+
+.contenedor-4enlinea-1 div:first-child button {
+  background: #5e5df0;
+  border-radius: 999px;
+  box-shadow: #5e5df0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #ffffff;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  align-self: center;
+}
+
+.tablero-juego {
+  margin-left: 100px;
+}
+
+.tablero-turno {
+  margin-top: 10%;
+  width: 28%;
+  margin-right: 10%;
+  background-color: #5e5df0;
+  border-radius: 20px;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.contenedor-4enlinea2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2%;
+  margin-left: 5%;
+}
 /* ----- IMAG 4ENLINEA -----*/
 .figure-4enlinea-portada img {
   width: 70%;
   margin-left: 15%;
   margin-top: 40px;
 }
-.contenedor-4enlinea div:first-child img {
-  width: 800px;
-  height: 600px;
+.tablero-juego img {
+  width: 90%;
+  height: 80%;
 }
-.contenedor-4enlinea-1 img {
-  width: 15px;
-  height: 15px;
+
+.tablero-turno img {
+  height: 100px;
+  width: 100px;
+  align-self: center;
+}
+.tablero-turno p {
+  color: white;
+}
+.contenedor-4enlinea2 img {
+  width: 60%;
+  height: 100%;
 }
 /* ----- IMAG HOGWARTS -----*/
 .img-hogwarts {
@@ -412,102 +477,92 @@ span {
 
 /* ----- JUEGO LANZAMIENTO -----*/
 
- 
-.contenedor-imagenes{
+.contenedor-imagenes {
   width: 100%;
   margin: 15px 30px 15px 40px;
   scroll-behavior: smooth;
   background-color: #ee2418;
 }
 
-.carousel{
+.carousel {
   display: flex;
   flex-direction: row;
   width: 910px;
-
 }
-.pelicula img{
+.pelicula img {
   width: 300px;
   margin: 0px 10px 0px 10px;
 }
-.contenedor-carrusel{
- 
+.contenedor-carrusel {
   height: 300px;
   overflow: hidden;
 }
 
-.contenedor-principal{
+.contenedor-principal {
   display: flex;
   align-items: center;
   position: relative;
   padding: 20px 0px 20px 0px;
   margin-bottom: 70px;
 }
-.historia-juego{
+.historia-juego {
   color: white;
-  
 }
-.historia-juego h2{
+.historia-juego h2 {
   margin-left: 40px;
 }
-.parrafo-lanzamiento{
+.parrafo-lanzamiento {
   margin: 10px 20px 0px 40px;
 }
 
-.card-juego{
-display: flex;
-flex-direction: row;
-
+.card-juego {
+  display: flex;
+  flex-direction: row;
 }
-.mascara{
+.mascara {
   width: 300px;
   height: 400px;
   background-color: aqua;
   border-radius: 20px;
-  border:5px solid rgb(172, 129, 21) ;
+  border: 5px solid rgb(172, 129, 21);
   overflow: hidden;
   margin: 0px 15px 0px 15px;
-  
 }
-.mascara img{
+.mascara img {
   margin: auto;
-width: 120%;
+  width: 120%;
+}
 
-} 
- 
-.contenedor-informacion{
+.contenedor-informacion {
   display: flex;
   flex-direction: column;
   margin: 10px 40px 15px 30px;
   padding: 20px;
   background-color: black;
   color: white;
-
 }
 
-.columna-minimo,.columna-recomendado,.titulo-descripcion,.descri{
+.columna-minimo,
+.columna-recomendado,
+.titulo-descripcion,
+.descri {
   justify-content: flex-start;
   width: 50%;
 }
 
-.titulo-descripcion,.descri{
+.titulo-descripcion,
+.descri {
   font-size: 12px;
 }
-.titulo-descripcion{
+.titulo-descripcion {
   margin-top: 15px;
 }
-.idiomas{
+.idiomas {
   width: 100%;
   color: white;
   align-self: center;
   margin-bottom: 20px;
 }
- 
-  
- 
-  
-
-
 
 /* ----- FOOTER -----*/
 footer {
@@ -527,4 +582,12 @@ footer {
 .container-footer2 {
   align-self: center;
   margin-bottom: 20px;
+}
+
+footer ul li:first-child {
+  font-size: 30px;
+}
+
+footer li {
+  margin-top: 30px;
 }
