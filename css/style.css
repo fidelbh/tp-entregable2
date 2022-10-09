@@ -171,6 +171,13 @@ article div p {
   padding-bottom: 50px;
 }
 /*----- CONTENEDOR 4 EN LINEA -----*/
+.contenedor-4enlinea {
+  height: 500px;
+}
+
+.contenedor-4enlinea-1 {
+  display: flex;
+}
 
 /* ----- IMAG 4ENLINEA -----*/
 .figure-4enlinea-portada img {
@@ -181,6 +188,10 @@ article div p {
 .contenedor-4enlinea div:first-child img {
   width: 800px;
   height: 600px;
+}
+.contenedor-4enlinea-1 img {
+  width: 15px;
+  height: 15px;
 }
 /* ----- IMAG HOGWARTS -----*/
 .img-hogwarts {
