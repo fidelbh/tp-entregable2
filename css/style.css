@@ -31,6 +31,10 @@ body {
   margin-left: 40px;
 }
 
+.body-lanzamiento {
+  background: rgba(20, 22, 19, 0.83);
+}
+
 header,
 nav {
   background-color: rgb(39, 14, 120);
@@ -536,7 +540,9 @@ span {
 .contenedor-informacion {
   display: flex;
   flex-direction: column;
-  margin: 10px 40px 15px 30px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 50px;
   padding: 20px;
   background-color: black;
   color: white;
