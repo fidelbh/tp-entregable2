@@ -544,7 +544,7 @@ span {
   margin-right: 5%;
   margin-bottom: 50px;
   padding: 20px;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.1);
   color: white;
 }
 
@@ -554,6 +554,11 @@ span {
 .descri {
   justify-content: flex-start;
   width: 50%;
+}
+
+.columna-recomendado,
+.idiomas {
+  margin-top: 50px;
 }
 
 .titulo-descripcion,
@@ -566,10 +571,12 @@ span {
 .idiomas {
   width: 100%;
   color: white;
-  align-self: center;
   margin-bottom: 20px;
 }
 
+.idiomas h2 {
+  padding-bottom: 15px;
+}
 /* ----- FOOTER -----*/
 footer {
   background-color: rgba(17, 19, 99, 1);
