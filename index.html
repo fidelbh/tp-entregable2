@@ -13,7 +13,24 @@
   </head>
   <body>
     <header>
-      <img class="menu-hanburguesa" src="/images/menu_hamburguesa.png" alt="" />
+      <div class="menu-desplegable">
+        <ul>
+          <li><h1>User 2</h1></li>
+          <li> <img src="/images/user.svg" alt="" /> </li>
+          <li>Configuracion y privacidad</li>
+          <li>Ayuda y soporte técnico</li>
+          <li>Pantalla y accesibilidad</li>
+          <li>Log out</li>
+          <div>
+            <img src="/images/facebook.svg" alt="" />
+            <img src="/images/twitter.svg" alt="" />
+            <img src="/images/youtube.svg" alt="" />
+            <img src="/images/instagram.svg" alt="" />
+            <img src="/images/twitch.svg" alt="" />
+          </div>
+        </ul>  
+      </div>
+      <img class="menu-hanburguesa" src="/images/menu_hamburguesa.png" alt="" id="menu-hamburguesa"/>
       <img class="logo" src="/images/logo.png" alt="" />
       <nav>
         <ul class="lista-nav">
@@ -429,5 +446,6 @@
     </footer>
 
     <script src="/js/controlador.js"></script>
+    <script src="/js/menuDesplegable.js"></script>
   </body>
 </html>

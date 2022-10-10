@@ -78,6 +78,11 @@ a {
 }
 
 /* ----- HEADER -----*/
+
+/*---Menu desplegable---*/
+.menu-desplegable {
+  display: none;
+}
 section {
   width: 90%;
   color: white;
@@ -266,17 +271,15 @@ article div p {
 .img-hogwarts {
   width: 1300px;
   z-index: 1;
-  
 }
 
-.content-hogwarts{
-  background-color: #2583B3;
+.content-hogwarts {
+  background-color: #2583b3;
   margin: auto;
-  width:auto;
-  height:800px;
+  width: auto;
+  height: 800px;
   overflow: hidden;
   justify-content: center;
-
 }
 .btn-preventa {
   background-color: #460377;
@@ -290,9 +293,6 @@ article div p {
   bottom: 290px;
   left: 600px;
 }
-
-
-  
 
 /* ----- CONTENEDOR TITULO Y CONTROL -----*/
 .content-titulo-controladores {
@@ -323,16 +323,12 @@ article div p {
 
 .content-carrusel-recomendado {
   margin-bottom: 70px;
-  
- 
 }
 
 .content-principal {
   display: flex;
   align-items: center;
   position: relative;
-  
-  
 }
 
 .flecha-izquierda,
@@ -403,16 +399,16 @@ article div p {
   background-color: red;
   overflow: hidden;
 }
-.descuento{
+.descuento {
   background-color: red;
-  text-align:center;
+  text-align: center;
   margin: 0px 0px 0px 150px;
- padding-top: 10px;
+  padding-top: 10px;
   width: 50px;
   height: 40px;
   z-index: 2;
 }
-.content-titulo-descuento{
+.content-titulo-descuento {
   display: flex;
   flex-direction: row;
   width: 281px;
@@ -516,14 +512,13 @@ span {
 }
 
 /* ----- JUEGO LANZAMIENTO -----*/
-.img-hero{
- width: auto;
-
+.img-hero {
+  width: auto;
 }
-.btn-reservar{
+.btn-reservar {
   z-index: 4;
   position: absolute;
-  background-color: #2583B3;
+  background-color: #2583b3;
   margin: 20px 0px 0px 0px;
   width: 220px;
   height: 45px;
@@ -534,19 +529,16 @@ span {
   border-radius: 4px;
   right: 135px;
   bottom: -10px;
-
 }
-.span1{
-  
+.span1 {
   position: absolute;
   z-index: 4;
   right: 145px;
   bottom: -23px;
-  font-weight: bold
-
+  font-weight: bold;
 }
 
-.span2{
+.span2 {
   position: absolute;
   z-index: 4;
   font-size: 13px;
@@ -558,22 +550,22 @@ span {
   font-weight: lighter;
 }
 
-.personaje{
+.personaje {
   position: absolute;
   z-index: 3;
-
 }
-.titulo{
+.titulo {
   position: absolute;
   z-index: 2;
-
 }
-.fondo{
+.fondo {
   position: absolute;
   z-index: 1;
 }
 
-.fondo,.personaje,.titulo{
+.fondo,
+.personaje,
+.titulo {
   width: 1000px;
 }
 .contenedor-imagenes {
