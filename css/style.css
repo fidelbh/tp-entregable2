@@ -264,18 +264,35 @@ article div p {
 }
 /* ----- IMAG HOGWARTS -----*/
 .img-hogwarts {
-  max-width: 100%;
-  max-height: 100%;
+  width: 1300px;
+  z-index: 1;
+  
 }
 
+.content-hogwarts{
+  background-color: #2583B3;
+  margin: auto;
+  width:auto;
+  height:800px;
+  overflow: hidden;
+  justify-content: center;
+
+}
 .btn-preventa {
   background-color: #460377;
   padding: 8px 32px;
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: bold;
   color: white;
-  border-radius: 4px;
+  border-radius: 5px;
   position: relative;
+  z-index: 2;
+  bottom: 290px;
+  left: 600px;
 }
+
+
+  
 
 /* ----- CONTENEDOR TITULO Y CONTROL -----*/
 .content-titulo-controladores {
@@ -306,12 +323,16 @@ article div p {
 
 .content-carrusel-recomendado {
   margin-bottom: 70px;
+  
+ 
 }
 
 .content-principal {
   display: flex;
   align-items: center;
   position: relative;
+  
+  
 }
 
 .flecha-izquierda,
@@ -382,13 +403,26 @@ article div p {
   background-color: red;
   overflow: hidden;
 }
+.descuento{
+  background-color: red;
+  text-align:center;
+  margin: 0px 0px 0px 150px;
+ padding-top: 10px;
+  width: 50px;
+  height: 40px;
+  z-index: 2;
+}
+.content-titulo-descuento{
+  display: flex;
+  flex-direction: row;
+  width: 281px;
+}
 
 .card1 {
   width: 281px;
   height: 445px;
   color: white;
   border-radius: 10px;
-
   overflow: hidden;
   background-color: #270e78;
   transition: 0.3s ease all;
@@ -402,9 +436,11 @@ article div p {
 .card1 img {
   width: 281px;
   height: 340px;
+  z-index: 1;
 }
 
 .title-card {
+  font-size: 20px;
   margin: 10px 5px 20px 10px;
 }
 
@@ -480,7 +516,66 @@ span {
 }
 
 /* ----- JUEGO LANZAMIENTO -----*/
+.img-hero{
+ width: auto;
 
+}
+.btn-reservar{
+  z-index: 4;
+  position: absolute;
+  background-color: #2583B3;
+  margin: 20px 0px 0px 0px;
+  width: 220px;
+  height: 45px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  right: 135px;
+  bottom: -10px;
+
+}
+.span1{
+  
+  position: absolute;
+  z-index: 4;
+  right: 145px;
+  bottom: -23px;
+  font-weight: bold
+
+}
+
+.span2{
+  position: absolute;
+  z-index: 4;
+  font-size: 13px;
+  right: 100px;
+  bottom: -65px;
+  color: white;
+  width: 320px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.personaje{
+  position: absolute;
+  z-index: 3;
+
+}
+.titulo{
+  position: absolute;
+  z-index: 2;
+
+}
+.fondo{
+  position: absolute;
+  z-index: 1;
+}
+
+.fondo,.personaje,.titulo{
+  width: 1000px;
+}
 .contenedor-imagenes {
   width: 100%;
   margin: 15px 30px 15px 40px;
@@ -544,7 +639,7 @@ span {
   margin-right: 5%;
   margin-bottom: 50px;
   padding: 20px;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: black;
   color: white;
 }
 
@@ -554,11 +649,6 @@ span {
 .descri {
   justify-content: flex-start;
   width: 50%;
-}
-
-.columna-recomendado,
-.idiomas {
-  margin-top: 50px;
 }
 
 .titulo-descripcion,
@@ -571,12 +661,10 @@ span {
 .idiomas {
   width: 100%;
   color: white;
+  align-self: center;
   margin-bottom: 20px;
 }
 
-.idiomas h2 {
-  padding-bottom: 15px;
-}
 /* ----- FOOTER -----*/
 footer {
   background-color: rgba(17, 19, 99, 1);
